@@ -1919,15 +1919,13 @@ function openWhatsapp(){
   let text =
 `Hello Sri Sankara Hitech Paper,
 
-Name: ${name}
-Phone: ${phone}
-Email: ${email}
+I am interested to enquire about the following products:
 
-Selected Products:
-${enquiryProducts.join("\n")}
+• ${enquiryProducts.join("\n• ")}
 
-Requirement:
-${message}`;
+Can you please share the pricing and bulk order details?
+
+Thank you.`;
 
   window.open(
     `https://wa.me/919443209781?text=${encodeURIComponent(text)}`,
